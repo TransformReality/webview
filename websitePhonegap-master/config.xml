@@ -19,7 +19,7 @@
 	<gap:plugin name="org.apache.cordova.inappbrowser" />
 
 	<!-- allow cross domain stuff -->
-	<gap:plugin name="cordova-plugin-whitelist" version="1.0.0" source="npm" />
+	<!--<gap:plugin name="cordova-plugin-whitelist" version="1.0.0" source="npm" /> -->
 
 	<!-- make webview browser be chromium -->
 	<!-- <gap:plugin name="org.crosswalk.engine" /> -->
