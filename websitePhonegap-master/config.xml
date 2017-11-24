@@ -25,5 +25,5 @@
 	<!-- <gap:plugin name="org.crosswalk.engine" /> -->
 
 	<!-- This will open inside app -->
-	<access origin="https://railsphonegap.herokuapp.com" />
+	<access origin="https://sponpay.com" />
 </widget>
