@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+    	xmlns:android = "http://schemas.android.com/apk/res/android"
+        id          = "com.homewardhealthcare.dd"
+        versionCode = "3"
+        version     = "3" >
+
+    <name>Impact Report</name>
+    <description>IR demo</description>
+
+    <author href="https://www.homewardhealthcare.com" email="joeg@homewardhealthcare.com">
+        Homeward Healthcare
+    </author>
+
+	<!-- <preference name="EnableViewportScale" value="false" /> -->
+	<preference name="fullscreen" value="true" />
+
+	<gap:plugin name="org.apache.cordova.inappbrowser" />
+
+	<!-- allow cross domain stuff -->
+	<gap:plugin name="cordova-plugin-whitelist" version="1.0.0" source="npm" />
+
+	<!-- make webview browser be chromium -->
+	<!-- <gap:plugin name="org.crosswalk.engine" /> -->
+
+	<!-- This will open inside app -->
+	<access origin="https://railsphonegap.herokuapp.com" />
+</widget>
